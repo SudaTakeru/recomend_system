@@ -10,15 +10,16 @@ import numpy as np
 class NeighborCF:
     
     def __init__(self,Matrix,t=1,k1=1):
+        # ExpandedNeighbor Collaborative Filtering:t=2
         self.Matrix = Matrix
-        self.type = t
+        self.type = t # ExpandedNeighbor CollaborativeFiltering or not
         self.k1=k1
         self.k2=1
         
     def recomend(self,userindex):
         s = self.get_similarity(userindex)
         sind=np.argsort(s)
-        if self.type==2:
+        if self.type==2: # ExpandedNeighbor CollaborativeFiltering
             sl = [0 for i in range(self.k1)]
             for i in range(self.k1):
                 s2 = self.get_similarity(sind[0,i])

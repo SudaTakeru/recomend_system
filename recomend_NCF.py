@@ -35,7 +35,7 @@ data = divide_data(data0,timerange,userrange)
 
 Matrixs = make_matrix(data)
 
-# CF
+# CF rhatを算出する
 NCF = NeighborCF(Matrixs[0])
 
 rhat = np.zeros((reuser,Matrixs[0].shape[1]))
