@@ -9,7 +9,7 @@
 Wang, Bin, et al. "Recommendation strategy using expanded neighbor collaborative filtering." Control Conference (CCC), 2017 36th Chinese. IEEE, 2017.
 （recomend_NCF.py）
 
-２．Latent factor modelsについては下記の論文で利用されている遺伝的アルゴリズムを用いて最適化を行ってみました。
+２．Latent factor modelsについては最適化の手法として下記の論文で利用されている遺伝的アルゴリズムを用いてみました。
 Ono, Isao, Shigenobu Kobayashi, and Koji Yoshida. "Optimal lens design by real-coded genetic algorithms using UNDX." Computer methods in applied mechanics and engineering 186.2-4 (2000): 483-497.
 （recomend_GA.py）
 
