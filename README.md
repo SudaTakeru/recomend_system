@@ -19,6 +19,7 @@ Python3, numpy
 # Usage
 サンプルがrecomend_NCF.pyとrecomend_GA.pyです。こちらを参照してください。
 
+# References
 Dataset: MovieLens 100K Dataset
 http://grouplens.org/datasets/movielens/
 
