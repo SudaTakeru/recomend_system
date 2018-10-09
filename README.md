@@ -17,12 +17,9 @@ Dataset: MovieLens 100K Dataset
 http://grouplens.org/datasets/movielens/
 
 参考：
-http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/
-http://www.slideshare.net/hamukazu/introduction-to-behavior-based-recommendation-system
-
-http://yifanhu.net/PUB/cf.pdf
-
-https://hivecolor.com/id/47
-
-https://www.slideshare.net/takemikami/ss-76817490
-https://www.slideshare.net/hoxo_m/ss-53305070?next_slideshow=2
+http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/ \n
+http://www.slideshare.net/hamukazu/introduction-to-behavior-based-recommendation-system \n
+http://yifanhu.net/PUB/cf.pdf \n
+https://hivecolor.com/id/47 \n
+https://www.slideshare.net/takemikami/ss-76817490 \n
+https://www.slideshare.net/hoxo_m/ss-53305070?next_slideshow=2 \n
