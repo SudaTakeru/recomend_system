@@ -13,13 +13,22 @@ Wang, Bin, et al. "Recommendation strategy using expanded neighbor collaborative
 Ono, Isao, Shigenobu Kobayashi, and Koji Yoshida. "Optimal lens design by real-coded genetic algorithms using UNDX." Computer methods in applied mechanics and engineering 186.2-4 (2000): 483-497.
 (recomend_GA.py)
 
+# Dependency
+Python3, numpy
+
+# Usage
+サンプルがrecomend_NCF.pyとrecomend_GA.pyです。こちらを参照してください。
+
 Dataset: MovieLens 100K Dataset
 http://grouplens.org/datasets/movielens/
 
-参考：
+参考:
 http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/
 http://www.slideshare.net/hamukazu/introduction-to-behavior-based-recommendation-system 
 http://yifanhu.net/PUB/cf.pdf
 https://hivecolor.com/id/47
 https://www.slideshare.net/takemikami/ss-76817490
 https://www.slideshare.net/hoxo_m/ss-53305070?next_slideshow=2 
+
+# Authors
+Suda Takeru
