@@ -1,15 +1,14 @@
-# recomend_system
+# recomend_system 
+I have implemented two methods on user base collaborative filtering used as a recommendation system.
 
-レコメンドシステムとして使われるユーザーベース協調フィルタリングについて二つの手法を実装してみました。
-
-1.近傍法
+1.neighbor collaborative filtering
 2.Latent factor models
 
-1.近傍法は通常の近傍法と下記の論文で提案されたECFについてを利用できます。
-Wang, Bin, et al. "Recommendation strategy using expanded neighbor collaborative filtering." Control Conference (CCC), 2017 36th Chinese. IEEE, 2017.
+1.neighbor collaborative filtering can be used two types. One method is a normal nieghbor CF. The other is expanded neighbor collaborative filtering proposed by Wang, Bin, et al.
+"Recommendation strategy using expanded neighbor collaborative filtering." Control Conference (CCC), 2017 36th Chinese. IEEE, 2017.
 (recomend_NCF.py)
 
-2.Latent factor modelsについては最適化の手法として下記の論文で利用されている遺伝的アルゴリズムを用いてみました。
+2.For the Latent factor models, we used the genetic algorithm used in the following paper as an optimization method.
 Ono, Isao, Shigenobu Kobayashi, and Koji Yoshida. "Optimal lens design by real-coded genetic algorithms using UNDX." Computer methods in applied mechanics and engineering 186.2-4 (2000): 483-497.
 (recomend_GA.py)
 
@@ -17,13 +16,13 @@ Ono, Isao, Shigenobu Kobayashi, and Koji Yoshida. "Optimal lens design by real-c
 Python3, numpy
 
 # Usage
-サンプルがrecomend_NCF.pyとrecomend_GA.pyです。こちらを参照してください。
+samples are recomend_NCF.py and recomend_GA.py.
 
 # References
 Dataset: MovieLens 100K Dataset
 http://grouplens.org/datasets/movielens/
 
-参考:
+
 http://blog.echen.me/2011/10/24/winning-the-netflix-prize-a-summary/
 http://www.slideshare.net/hamukazu/introduction-to-behavior-based-recommendation-system 
 http://yifanhu.net/PUB/cf.pdf
