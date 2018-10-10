@@ -12,6 +12,9 @@ I have implemented two methods on user base collaborative filtering used as a re
 Ono, Isao, Shigenobu Kobayashi, and Koji Yoshida. "Optimal lens design by real-coded genetic algorithms using UNDX." Computer methods in applied mechanics and engineering 186.2-4 (2000): 483-497.
 (recomend_GA.py)
 
+# pip install
+python3 -m pip install --index-url https://test.pypi.org/simple/ rsys_by_suda
+
 # Dependency
 Python3, numpy
 
