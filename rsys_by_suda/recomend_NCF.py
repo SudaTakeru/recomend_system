@@ -47,7 +47,7 @@ for i in range(reuser):
 pos = np.where(rhat >= threshold)
 r = np.zeros(rhat.shape)
 r[pos]=1
-r = r - Matrixs[0][:reuser,:]
+r = r - Matrixs[0][:reuser,:] #一度見た映画を除く
  
 #評価に用いるdata（最新dataの2週間前から最新dataまで）のMatrixを準備
 userrange=[0,usernum0]
