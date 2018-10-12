@@ -32,6 +32,7 @@ http://yifanhu.net/PUB/cf.pdf
 https://hivecolor.com/id/47
 https://www.slideshare.net/takemikami/ss-76817490
 https://www.slideshare.net/hoxo_m/ss-53305070?next_slideshow=2 
+ Wang, Bin, et al. "Recommendation strategy using expanded neighbor collaborative filtering." Control Conference (CCC), 2017 36th Chinese. IEEE, 2017.
 
 # Authors
 Suda Takeru
