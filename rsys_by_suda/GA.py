@@ -19,6 +19,7 @@ class GA:
         
     def random_initilize(self,x_shape,y_shape,x_range,y_range):
         # x_range and y_range : [a,b]
+        # ランダムに初期化
         self.x_shape = x_shape
         self.y_shape = y_shape
         self.xs=[x_range[0]+(x_range[1]-x_range[0])*np.random.rand(x_shape[0],x_shape[1]) for i in range(self.n)]
@@ -26,7 +27,8 @@ class GA:
         
     
     def training(self,time,v=1,d=0):
-        self.time = time
+        # トレーニング
+        self.time = time # トレーニング回数
         minlosses = [0 for i in range(self.time)]
         ims=[]
         if v==1 and d==2:
@@ -54,6 +56,7 @@ class GA:
         return [self.xs[0],self.ys[0],minlosses]
         
     def crossover_2d(self):
+        # 交配　2次元
         childrenx=[]
         childreny=[]
         for i in range(int(self.n/2.0)):
@@ -75,6 +78,7 @@ class GA:
         self.ys.extend(childreny)
         
     def crossover(self):
+        # 交配
         childrenx=[]
         childreny=[]
         for i in range(int(self.n/2.0)):
@@ -94,6 +98,7 @@ class GA:
         self.ys.extend(childreny)
         
     def survive(self):
+        # 値の良い上位ｎ個を選ぶ
         losses = [10**5 for i in range(len(self.xs))]
         for i in range(len(self.xs)):
             losses[i]=self.fn.loss(self.xs[i],self.ys[i])
